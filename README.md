@@ -30,7 +30,7 @@ Scores are stored in `progress.json`; the lowest-scoring facts are asked first.
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/yaad-study-coach.git
+git clone https://github.com/dheeraj071523/yaad-study-coach.git
 cd yaad-study-coach
 npm install
 ```
