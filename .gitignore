@@ -1,0 +1,6 @@
+node_modules/
+models/
+tools/
+progress.json
+.npm-cache/
+*.log

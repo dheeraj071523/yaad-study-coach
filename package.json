@@ -1,0 +1,19 @@
+{
+  "name": "yaad-study-coach",
+  "version": "0.1.0",
+  "description": "Offline study coach: asks questions from your own notes and grades your answers with on-device AI (QVAC SDK).",
+  "main": "src/yaad.mjs",
+  "scripts": {
+    "start": "node src/yaad.mjs",
+    "start:hinglish": "node src/yaad.mjs --lang hinglish",
+    "doctor": "npx --package @qvac/cli qvac doctor",
+    "test": "node --test test/grading.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.1"
+  }
+}
